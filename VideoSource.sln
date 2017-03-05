@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VideoSource", "VideoSource\VideoSource.vcxproj", "{0D66D85B-DC51-412D-9856-822A414A9B19}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A115C53A-F51D-4033-AE6D-57D69E42DD65} = {A115C53A-F51D-4033-AE6D-57D69E42DD65}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Capture", "Capture\Capture.vcxproj", "{A115C53A-F51D-4033-AE6D-57D69E42DD65}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Render", "Render\Render.vcxproj", "{FACCC841-911A-475D-A37B-F539A7551B3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D66D85B-DC51-412D-9856-822A414A9B19}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D66D85B-DC51-412D-9856-822A414A9B19}.Debug|Win32.Build.0 = Debug|Win32
+		{0D66D85B-DC51-412D-9856-822A414A9B19}.Release|Win32.ActiveCfg = Release|Win32
+		{0D66D85B-DC51-412D-9856-822A414A9B19}.Release|Win32.Build.0 = Release|Win32
+		{A115C53A-F51D-4033-AE6D-57D69E42DD65}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A115C53A-F51D-4033-AE6D-57D69E42DD65}.Debug|Win32.Build.0 = Debug|Win32
+		{A115C53A-F51D-4033-AE6D-57D69E42DD65}.Release|Win32.ActiveCfg = Release|Win32
+		{A115C53A-F51D-4033-AE6D-57D69E42DD65}.Release|Win32.Build.0 = Release|Win32
+		{FACCC841-911A-475D-A37B-F539A7551B3A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FACCC841-911A-475D-A37B-F539A7551B3A}.Debug|Win32.Build.0 = Debug|Win32
+		{FACCC841-911A-475D-A37B-F539A7551B3A}.Release|Win32.ActiveCfg = Release|Win32
+		{FACCC841-911A-475D-A37B-F539A7551B3A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
